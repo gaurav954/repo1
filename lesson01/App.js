@@ -66,7 +66,7 @@ function onPopUpOk() {
 
 function onPopUpCancel() {
     $("#overlay").hide();
-    $("#popup").hide();	
+    $("#popup").hide();	     
 }
 
 
