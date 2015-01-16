@@ -1,0 +1,49 @@
+﻿body
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    }
+    
+.div1
+{
+    float: left;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    }
+    
+.mymap
+{
+    border: solid 2px grey;
+    height: 100%;
+    width: 78%;
+    position: relative;
+    float: left;  
+    }
+    
+.lpane
+{
+    border: solid 2px grey;
+    height: 100%;
+    width: 20%;
+    position: relative;
+    float: left;
+    }
+    
+.sel-div select
+{
+    width: 75px;
+    }
+    
+.sel-div
+ {
+     padding-left: 40px;
+     padding-top : 50px;
+    }
+    
+.sel-div span
+{
+    color: chocolate;
+    font: caption;
+    }

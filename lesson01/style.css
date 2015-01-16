@@ -1,0 +1,43 @@
+
+.heading {
+border-style: solid;
+width: 1300;
+text-align: -webkit-center;
+background-color: thistle;
+}
+
+.container-left {
+border-style: solid;
+width: 250px;
+height: 500px;
+border-width: thin;
+float: left;
+background-color: crimson;
+}
+
+.container-middle {
+border-style: solid;
+width: 1304px;
+height: 500px;
+border-width: thin;
+text-align: -webkit-centre;
+background-color: gainsboro;
+}
+
+.container-details {
+border-style: solid;
+width: 800px;
+height: 300px;
+margin-left: 371px;
+margin-top: 38px;
+background-color: turquoise;
+left: -120px;
+position: relative;
+}
+.input-lmargin{
+margin-left: 50px;
+}
+
+.left-label{
+width: 100px;
+}

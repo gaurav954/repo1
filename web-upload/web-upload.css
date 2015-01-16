@@ -1,0 +1,35 @@
+﻿.container
+{
+    width: 800px;
+    height: 600px;
+    border: groove 5px silver;
+    margin-left: 267px;
+    }
+    
+.type
+{
+    margin-left: 158px;
+    margin-top: 20px;
+    }
+    
+.container1
+{
+    border:groove 3px black;    
+    width: 600px;
+    height: 400px;   
+    margin: 40px;   
+    position:absolute;       
+    }
+    
+.row
+{
+    margin-top: 12px;
+    margin-left: 20px;
+    width: 56px;
+    font-weight: bold;
+    }
+    
+.hidden
+{
+    visibility: hidden;
+    }    

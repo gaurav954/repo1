@@ -1,0 +1,19 @@
+<style type="text/css">
+body {background-color:white;}
+p {color:blue;}
+</style>
+
+
+
+<p>this is a paragraph!</p><br>
+<p> hello</p>
+<a href="http://www.google.com" target="_blank">Click</a>
+<p><b>BOLD</b></p>
+<p><strong>BOLD</strong></p>
+<p><i>ITALIC</i></p>
+<p><em>EMPASIZED</em></p>
+<p><code>CODING</code></p>
+<p><sub>hello</sub><sup>HELLO</sup></p>
+<p><address>Contact us @XYZ<br>email-xyz</address></p>
+<p><abbr title='As soon as possible'>ASAP</abbr></p>
+<p><meta http-eqiv="refresh" content="30"></p>

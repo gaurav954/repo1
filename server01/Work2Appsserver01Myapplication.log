@@ -1,0 +1,5 @@
+[2014-12-03 10:15:28.462] [INFO] Myapplication - Application is running
+[2014-12-03 10:15:28.477] [WARN] Myapplication - Module cannot be loaded
+[2014-12-03 10:15:28.477] [ERROR] Myapplication - Saved data was erroe
+[2014-12-03 10:15:28.477] [FATAL] Myapplication - Server could not process
+[2014-12-03 10:15:28.477] [DEBUG] Myapplication - Some debug messages

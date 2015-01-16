@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Website Upload</title>
+    <link href="web-upload.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-1.11.1.js" type="text/javascript"></script>
+    <script src="web-upload.js" type="text/javascript"></script>
+</head>
+<body>
+<div class='container'>
+
+<div class='type'>TYPE: 
+    <select id='select'>
+      <option value="select" selected >-Select-</option>
+      <option value="category" name="category">Category</option>
+      <option value="sub-category" name="sub-category">Sub category</option>
+      <option value="productline" name="productline">Product Line</option>
+      <option value="product" name="product">Product</option>
+    </select> 
+</div>
+<div id="blank"></div>
+
+</div>
+</body>
+
+
+<div class='container1 hidden' id="container1">
+    <form method="post" action="http://localhost:8080/category">
+    <div class='row'>CATEGORY: <input type="text" name='CATEGORY' /></div>
+    <div class='row'>ID: <input type="text" name='ID' /></div>
+    <div class='row'>TYPE: <input type="text" name='TYPE' /></div>
+    <div class='row'><input type="submit" value="UPLOAD" /></div>
+    </form>
+</div>
+
+
+<div class='container1 hidden' id="container2"> 
+    <form method="post" action="http://localhost:8080/subcategory">
+    <div class='row'>ID: <input type="text" name='ID' /></div>
+    <div class='row'>SUB CATEOGRY: <input type="text" name='SUB_CATEGORY' /></div>
+    <div class='row'>TYPE: <input type="text" name='TYPE' /></div>
+    <div class='row'>PARENT CATEGORY: <input type="text" name='PARENT_CATEGORY' /></div>
+    <div class='row'><input type="submit" value="UPLOAD" /></div>
+    </form>
+</div>
+
+<div class='container1 hidden' id="container3"> 
+    <form method="post" action="http://localhost:8080/pline">
+    <div class='row'>ID: <input type="text" name='ID' /></div>
+    <div class='row'>PRODUCT LINE: <input type="text" name='PRODUCT_LINE' /></div>
+    <div class='row'>TYPE: <input type="text" name='TYPE' /></div>
+    <div class='row'>PARENT SUB_CATEGORY: <input type="text" name='PARENT_SCATEGORY' /></div>
+    <div class='row'><input type="submit" value="UPLOAD" /></div>
+    </form>
+</div>
+
+<div class='container1 hidden' id="container4"> 
+    <form method="post" action="http://localhost:8080/product">
+    <div class='row'>ID: <input type="text" name='ID' /></div>
+    <div class='row'>PRODUCT: <input type="text" name='PRODUCT' /></div>
+    <div class='row'>SOURCE: <input type="text" name='SOURCE' /></div>
+    <div class='row'>PRICE: <input type="text" name='PRICE' /></div>
+    <div class='row'>PARENT PRODUCT LINE: <input type="text" name='PARENT_PLINE' /></div>
+    <div class='row'>TYPE: <input type="text" name='TYPE' /></div>
+    <div class='row'><input type="submit" value="UPLOAD" /></div>
+    </form>
+</div>
+</html>

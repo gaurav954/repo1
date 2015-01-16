@@ -1,0 +1,427 @@
+﻿body
+{
+    width: 1330px;
+    height: 800px;    
+    }
+    
+.container1
+{
+    width: 1346px;
+    height: 800px;
+    position:static;    
+    }
+
+.div1
+{
+    width: 100%;
+    height:12%;
+    border: 2px groove grey;
+    border-bottom: 0px;
+    border-collapse: collapse;
+    position: relative;
+    background-color: #00000F;
+    }
+    
+.image
+{
+    height: 96px;
+    width: 370px;
+    float: left;    
+    }
+    
+.search
+{
+    width: 607px;
+    height: 50px;
+    padding: 5px;
+    margin: 23px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    float: left;  
+    background-color: grey;
+    }
+    
+.divv1
+{
+    width: 100%;
+    height:7%;
+    border: 3px groove black;
+    border-collapse:collapse;  
+    border-bottom: 0px; 
+    background-color: #005387; 
+    }
+    
+.navibar
+{
+    height: 50px;
+    width: 806px;
+    margin-left: 267px;
+    }
+    
+.div2
+{
+    height: 1000px;
+    width: 1347px;   
+    position: absolute;    
+    border: 2px groove grey;
+    background-color: #EBF5FF;
+    }
+
+.div21
+{
+    width: 250px;
+    height: 1000px;
+    position: absolute; 
+    float: left; 
+    }
+    
+.div22
+{
+    width: 800px;
+    height: 996px;
+    background-color: white;
+    margin-left: 250px;
+    border-left: 2px groove grey;
+    border-right: 2px groove grey;
+    border-collapse: collapse; 
+    float: left;  
+    position: absolute;
+    }
+    
+.div23
+{
+    width: 294px;
+    height: 1000px;
+    position: absolute; 
+    margin-left: 1049px;
+    float: right;    
+    }
+    
+.category
+{
+    color: lightcyan;
+    font-size: large;
+    line-height: 54px;
+    cursor: context-menu;
+    font-variant: small-caps;
+    }
+    
+.nav-pills>li+li
+{
+    margin-left: 18px;
+    }
+    
+.dropdown
+{
+    z-index: +1;
+    background-color: #005387;
+    height: 100px;
+    width: 120px;
+    border: 2px outset grey;
+    border-radius: 10px;    
+    }
+  
+.li
+{   
+    color: lightcyan;
+    font-size:initial;
+    font-family: initial;
+    font-variant: small-caps;
+    font-weight: lighter; 
+    text-align:left;   
+    } 
+    
+.productLine    
+{  
+    color: black;
+    font-size: x-large;
+    margin: 20px;
+    cursor: context-menu;
+    }
+    
+.tshirt
+{ 
+    height: 308px;
+    width: 205px;
+    margin: 21px;
+    float: left;    
+    }
+    
+.jeans
+{
+    
+    height: 346px;
+    width: 212px;
+    margin: 18px;
+    margin-top: 42px;
+    float: left;
+    }
+    
+.top
+{
+    
+    height: 246px;
+    width: 164px;
+    margin: 36px;
+    float: left;
+    }
+    
+.kurti
+{
+    
+    height: 246px;
+    width: 178px;
+    margin: 36px;
+    float: left;
+    }
+    
+.phone
+{
+    
+    height: 132px;
+    width: 66px;
+    margin: 50px;
+    float: left;
+    }
+    
+#overlay
+{
+    position : absolute;
+    height:1152px;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    background-color:Black;
+    opacity:0.5;
+    display:none;
+    z-index: 1;
+    }
+ 
+#popup
+{
+    position: absolute;
+    height: 600px;
+    width: 600px;    
+    left: 28%;
+    background-color: white;
+    display: none;
+    z-index: 2;
+    border-style: thin;
+    border: 2px groove grey;
+    border-radius: 5px;
+    }
+    
+.displayButton
+{
+    float: right;
+    margin: 2px;    
+    position: relative;
+}
+
+.divDetails
+{
+   height: 344px;
+    width: 355px;
+    border: 3px groove silver;
+    float: left;
+    }
+    
+.divLeft
+{
+    height:inherit;
+    width: 76px;
+    float: left;
+    }
+    
+.divRight
+{
+    height:inherit;
+    width: 175px;
+    float: left;
+    }
+    
+.col
+{
+    font-size: x-large; 
+    font-variant: small-caps;       
+    }
+    
+.pName
+{
+    font-size: x-large;
+    font-variant: small-caps;
+    padding-left: 40px;    
+    }
+    
+.picDiv
+{
+    width: 239px;
+    float: left;
+    }
+    
+.cart
+{
+    float: right;
+    line-height: 0;
+    margin-top: 6px;
+    margin-right: 110px;
+    font-family: serif;
+    }
+    
+#overlay2
+{
+    position : absolute;
+    height:1000px;
+    width:100%;    
+    background-color:Black;
+    opacity:0.5;
+    display:none;
+    z-index: 3;
+    }
+ 
+#popup2
+{
+    position: absolute;
+    height: 1000px;
+    width: 803px;
+    left: 251px;
+    background-color: white;
+    display: none;
+    z-index: 4;
+    border-style: thin;
+    border: 2px groove grey;
+    border-radius: 5px;
+    }
+   
+.pic
+{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    }
+    
+.span
+{
+    float: right;
+    margin-top: 12px;
+    margin-right: 188px;
+    }
+    
+.span2
+{
+    float: right;
+    margin-top: -68px;
+    margin-right: 192px;
+    }
+    
+.span3
+{
+    float: right;
+    margin-top: -68px;
+    }
+    
+.container2
+{
+    width: 803px;
+    height: 1000px;
+    }
+   
+.blockL
+{
+    height: 1000px;
+    width: 500px;
+    float: left;
+    }
+    
+.blockR
+{
+    float:right;
+    width: 300px;
+    height: 1000px;
+    }
+.checkOut
+{ 
+    height: 400px;
+    width:294px;
+    border:groove 3px silver;    
+    }
+    
+.div
+{
+    height: 150px;
+    width: 475px;
+    }
+    
+.cartText
+{
+    color: black;
+    font-size: large;    
+    cursor: context-menu;
+    } 
+    
+.cartOut
+{
+    margin-top: 227px;
+    margin-left: 85px;
+    font-family: serif;
+    }   
+    
+.divR1
+{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 25px;
+    margin-top: 20px;
+    }
+
+.cartSave
+{
+    margin-top: -180px;
+    margin-left: 90px;
+    font-family: serif;
+    }
+    
+#overlay3
+{
+    position : absolute;
+    height:1152px;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    background-color:Black;
+    opacity:0.5;
+    display:none;
+    z-index: 1;
+    }
+ 
+#popup3
+{
+    position: absolute;
+    height: 400px;
+    width: 600px;    
+    left: 28%;
+    background-color: white;
+    display: none;
+    z-index: 2;
+    border-style: thin;
+    border: 2px groove grey;
+    border-radius: 5px;
+    }
+    
+.email
+{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 133px;
+    margin-top: 58px;
+    }
+    
+.save
+{
+    margin-left: 243px;
+    margin-top: 25px;
+    position: relative;
+    float:left;
+    }

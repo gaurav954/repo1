@@ -1,0 +1,60 @@
+﻿.container 
+{
+    border: 5px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: thistle;
+    float: left;
+}
+
+.button
+{
+    border: 2px solid black;
+    height: 36px;
+    width: 94px;
+    margin-left: 80px;
+    margin-top: 30px; 
+    }
+    
+.checkbox
+{
+    margin-left: 80px;
+    margin-top: 30px;
+    }
+    
+.image
+{
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    
+    }
+    
+.list
+{
+    border: 3px groove grey;
+    height: 200px;
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: gainsboro;
+    }
+    
+    
+.li
+{
+    margin-top: 10px;
+    font-size: x-large;
+    color: crimson;
+    font-family: fantasy;
+    }  
+    
+.selection
+{
+    border: 5px groove blue;    
+    }
+    
+    

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="Map.css">
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBG3fu_JUfsOROmprXN-j36Bcu5Md7UYKw&sensor=false"></script>
+<script src="country.js"></script>
+<script src="Map.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="div1">
+    <div class="lpane">
+        <div class="sel-div">
+            <span><b>Select country:</b></span>
+                <div><select id="country">
+                    <option value="USA">USA</option>
+                    <option value="INDIA">India</option>
+                     </select>
+                </div>
+            <span><b>Select state:</b></span>
+                <div class="sel-state">
+                <select id="state">
+                </select>
+                </div>
+            <span><b>Select city:</b></span>
+                <div class="sel-city">
+                <select id="city">
+                </select>
+                </div>
+            </div>
+         </div>
+        <div id="mymap" class="mymap"></div>
+    
+</div>
+</body>
+</html>

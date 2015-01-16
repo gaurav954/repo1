@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <link href="bootstrap-3.2.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="files/app.css" rel="stylesheet" type="text/css" />
+    <script src="files/jquery-1.11.1.js" type="text/javascript"></script>
+    <script src="files/jquery.tmpl.js" type="text/javascript"></script>
+    <script src="files/underscore.js" type="text/javascript"></script>
+    <script src="files/backbone-min.js" type="text/javascript"></script>
+    <script src="files/backbone.collectionview.js" type="text/javascript"></script>
+
+
+    <script src="files/utils.js" type="text/javascript"></script>
+
+    <script src="Views/viewLogin.js" type="text/javascript"></script>
+    <script src="Views/cartDisplay.js" type="text/javascript"></script>
+    <script src="Views/cart.js" type="text/javascript"></script>
+    <script src="Views/viewProduct.js" type="text/javascript"></script>
+    <script src="models/modelProduct.js" type="text/javascript"></script>
+    <script src="Views/viewPLine.js" type="text/javascript"></script>
+    <script src="models/modelPLine.js" type="text/javascript"></script>
+    <script src="Views/viewCategory.js" type="text/javascript"></script>
+    <script src="models/modelCategory.js" type="text/javascript"></script>
+    <script src="appController.js" type="text/javascript"></script>    
+    <script src="home.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="div1">
+        <div class="image"><img src="cooltext.png" /></div>
+            <div class="search">            
+                <span class="glyphicon glyphicon-search"></span>
+                <input type="text" placeholder="Search for a product, category or brand"
+                 style=" width: 500px; height: 34px " id="sText">
+                <button type="button" class="btn btn-warning"  id="search">Search</button>            
+            </div>
+        </div>
+                
+        <div class="divv1">
+            <button type="button" class="btn btn-danger btn-lg cart" id="cart"><span id="count"></span>
+            <span class="glyphicon glyphicon-shopping-cart"></span> Cart</button>
+            <div class="navibar"><ul class="nav nav-pills cat"></ul></div>             
+        </div>
+        
+        <div class="div2">
+            <div class="div21"><ul style="list-style-type:none" id="div21"></ul></div>
+            <div class="div22"><ul id='id22' style='list-style-type:none'></ul></div>
+            <div class="div23"></div>
+        </div>
+        
+        <div id="overall"></div>
+        <div id="cartShow"></div>
+        <div id='login'></div>  
+    </div>
+</body>
+</html>

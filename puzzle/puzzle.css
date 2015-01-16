@@ -1,0 +1,69 @@
+﻿body 
+{
+    width: 1360px;
+    height: 768px;
+    position: absolute;
+    }
+
+.container
+{
+    width: 26%;
+    height: 40%;
+    border: 3px groove crimson;
+    background-color: beige;
+    margin-left: 30%;   
+    position: relative; 
+    }
+
+table
+{
+    position: relative;
+    height: 100%;
+    width: 100%
+    }
+    
+td
+{
+    position: relative;
+    border: 2px groove crimson;
+    position: relative;
+    font-family: serif;
+    font-size: -webkit-xxx-large;
+    font-weight: bolder;
+    padding-left: 13%;
+    }
+    
+.button
+{
+    margin-top: 2%;
+    margin-left: 41%;
+    }
+    
+.shuffle
+{
+    background-color: brown;
+    color: ivory;
+    width: 33%;
+    font-weight: 900;
+    font-size: medium;
+    font-family: serif;
+    font-variant: small-caps;
+    }
+
+.cube
+{
+    font-family: serif;
+    font-size: -webkit-xxx-large;
+    font-weight: bolder;
+    padding-left: 13%;
+    }
+
+.hide
+{
+    visibility: hidden;
+    }
+    
+.show
+{
+    visibility:visible;
+    }

@@ -1,0 +1,237 @@
+﻿body
+{
+    width: 1330px;
+    height: 800px;    
+    }
+    
+.container1
+{
+    width: 1346px;
+    height: 800px;
+    position:static;    
+    }
+
+.div1
+{
+    width: 100%;
+    height:12%;
+    border: 2px groove grey;
+    border-bottom: 0px;
+    border-collapse: collapse;
+    position: relative;
+    background-color: #00000F;
+    }
+    
+.image
+{
+    height: 96px;
+    width: 370px;
+    float: left;    
+    }
+    
+.search
+{
+    width: 607px;
+    height: 50px;
+    padding: 5px;
+    margin: 23px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    float: left;  
+    background-color: grey;
+    }
+    
+.divv1
+{
+    width: 100%;
+    height:7%;
+    border: 3px groove black;
+    border-collapse:collapse;  
+    border-bottom: 0px; 
+    background-color: #005387; 
+    }
+    
+.navibar
+{
+    height: 50px;
+    width: 806px;
+    margin-left: 267px;
+    }
+    
+.spanNav
+{
+    color: lightgrey;
+    font-family: initial;
+    font-size: x-large;
+    font-variant: small-caps;
+    font-weight: bolder;
+    padding: 9px; 
+    float: left;  
+    } 
+    
+.dropdown
+{
+    z-index: +1;
+    background-color: #005387;
+    height: 100px;
+    width: 120px;
+    border: 2px outset grey;
+    border-radius: 10px;    
+    }
+    
+.li
+{
+    margin-top: 10px;    
+    color: lightgrey;
+    font-size:initial;
+    font-family: initial;
+    font-variant: small-caps;
+    font-weight: lighter; 
+    text-align:left;   
+    }  
+    
+.li1
+{
+    margin-top: 10px;
+    color: darkslategrey;
+    font-size: x-large;
+    font-family: serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: left;
+    } 
+     
+.div2
+{
+    height: 1000px;
+    width: 1347px;   
+    position: absolute;    
+    border: 2px groove grey;
+    background-color: #EBF5FF;
+    }
+
+.div21
+{
+    width: 250px;
+    height: 1000px;
+    position: absolute; 
+    float: left; 
+    }
+    
+.div22
+{
+    width: 800px;
+    height: 996px;
+    background-color: white;
+    margin-left: 250px;
+    border-left: 2px groove grey;
+    border-right: 2px groove grey;
+    border-collapse: collapse; 
+    float: left;  
+    position: absolute;
+    }
+
+.tshirt
+{ 
+    height: 346px;
+    width: 215px;
+    margin: 21px;
+    float: left;    
+    }
+    
+.jeans
+{
+    
+    height: 346px;
+    width: 212px;
+    margin: 18px;
+    margin-top: 42px;
+    float: left;
+    }
+    
+.top
+{
+    
+    height: 246px;
+    width: 186px;
+    margin: 36px;
+    float: left;
+    }
+    
+.kurti
+{
+    
+    height: 246px;
+    width: 186px;
+    margin: 36px;
+    float: left;
+    }
+    
+.phone
+{
+    
+    height: 132px;
+    width: 66px;
+    margin: 50px;
+    float: left;
+    }
+
+.laptop
+{
+    height: 151px;
+    width: 171px;
+    margin: 33px;
+    float: left;
+    }
+    
+.offerOff
+{
+    display: none;
+    }
+    
+.offerOn
+{      
+    position: absolute;
+    left: 286px;   
+    }
+    
+.div23
+{
+    width: 294px;
+    height: 1000px;
+    position: absolute; 
+    margin-left: 1049px;
+    float: right;    
+    } 
+    
+.element1, .element2, .element3
+{
+    cursor: context-menu;
+    }
+    
+#overlay
+{
+    position : absolute;
+    height:1152px;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    background-color:Black;
+    opacity:0.5;
+    display:none;
+    z-index: 1;
+    }
+ 
+#popup
+{
+    position: absolute;
+    height: 600px;
+    width: 600px;    
+    left: 28%;
+    background-color: white;
+    display: none;
+    z-index: 2;
+    border-style: thin;
+    border: 2px groove grey;
+    border-radius: 5px;
+    }
