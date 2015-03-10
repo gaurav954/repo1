@@ -10,19 +10,19 @@ function insertCustomers(){
         if (!err) {
             console.log("connected");
             db.collection('customers', function(err, coll) {
-            var customer = [{
-                "name": "Gaurav",
-                "id": 1
-            }, {
-                "name": "Vishal",
-                "id": 2
-            }, {
-                "name": "Vandana",
-                "id": 3
-            }, {
-                "name": "Pihu",
-                "id": 4
-    }];
+                var customer = [{
+                        "name": "Gaurav",
+                        "id": 1
+                    }, {
+                        "name": "Vishal",
+                        "id": 2
+                    }, {
+                        "name": "Vandana",
+                        "id": 3
+                    }, {
+                        "name": "Pihu",
+                        "id": 4
+                }];
 
     coll.insert(customers, function(err) {
                     if (err) console.log(err);
